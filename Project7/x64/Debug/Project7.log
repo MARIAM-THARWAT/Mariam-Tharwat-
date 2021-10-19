@@ -1,0 +1,19 @@
+﻿  Source.cpp
+c:\users\user\source\repos\project7\project7\source.cpp(6): error C2678: binary '<<': no operator found which takes a left-hand operand of type 'std::istream' (or there is no acceptable conversion)
+  c:\users\user\source\repos\project7\project7\source.cpp(6): note: could be 'built-in C++ operator<<(bool, int)'
+  c:\users\user\source\repos\project7\project7\source.cpp(6): note: while trying to match the argument list '(std::istream, int)'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &&)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1092): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1082): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1075): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1068): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1061): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(1036): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ostream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\istream(995): note: see declaration of 'std::operator >>'
+c:\users\user\source\repos\project7\project7\source.cpp(8): error C2676: binary '>>': 'std::ostream' does not define this operator or a conversion to a type acceptable to the predefined operator
